@@ -1,0 +1,310 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #ffffff;
+    padding: 12px;
+    margin: 70px;
+    margin-left: 280px;
+    margin-right: 280px;
+    border-radius: 30px;
+   
+}
+
+.nav{
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+}
+
+h1{
+   color: hsl(235, 18%, 26%);
+   font-size: 40px;
+}
+
+p{
+    color: hsl(235, 18%, 26%);
+}
+
+label{
+    font-size: xx-small;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.invalid-email{
+    font-size: xx-small;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 170px;
+    color: hsl(4, 100%, 67%);
+}
+
+input{
+    padding: 10px;
+    width: 290px;
+    border-radius: 5px;
+    outline: none;
+    border-style: 1px solid hsl(231, 7%, 60%);
+}
+
+input::placeholder{
+    color: hsl(4, 100%, 67%);
+}
+
+input:focus{
+    outline: 2px solid transparent;
+    box-shadow: hsl(4, 100%, 67%);
+    background-color: hsl(11, 20%, 79%);
+}
+
+button{
+    margin-top: 16px;
+    padding: 10px;
+    width: 316px;
+    border-radius: 5px;
+    background-color: hsl(235, 18%, 26%);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(127deg, rgba(255, 63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
+}
+
+.hide{
+    display: none;
+}
+
+.success-message{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    padding: 50px;
+    padding-top: 40px;
+    width: 230px;
+    margin-left: 490px;
+    margin-right: 280px;
+    border-radius: 30px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+h2{
+    color: hsl(235, 28%, 26%);
+    font-size: 30px; 
+    font-weight: bolder;
+}
+.BTN{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 216px;
+    border-radius: 5px;
+    background-color: hsl(235, 18%, 26%);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media  (max-width: 480px) {
+    .hide{
+        display: none;
+    }
+    .container{
+        
+        flex-direction: column-reverse;
+        background-color: white;
+        width: 400px;
+        margin: 150px;
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .IMG{
+        width: 400PX;
+    }
+
+    .success-message{
+        width: 290px;
+        margin: 150px;
+        margin-left: 2px;
+        margin-right: 2px;
+        height: 300px;  
+    }
+    
+    .BTN{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) and ( min-width: 481px){
+    .hide{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        background-color: white;
+        width: 742px;
+        margin: 150px;
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .IMG{
+        width: 740PX;
+    }
+
+    h1{
+        font-size: 90px;
+        padding-left: 50px;
+    }
+
+    p{
+        font-size: xx-large;
+    }
+
+    input{
+        padding: 20px;
+        width: 490px;
+        margin-left: 40px;
+    }
+
+    label{
+        font-size: larger;
+        font-weight: bolder;
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    input::placeholder{
+        font-size: x-large;
+    }
+
+    .invalid-email{
+        font-size: larger;
+        padding-left: 235px;
+    }
+
+    button{
+        width: 535px;
+        padding: 25px;
+        margin-left: 40px;
+        font-size: larger;
+    }
+
+    .success-message{
+         width: 400px;
+         height: 450px;
+         margin-left: 20px;
+         margin-right: 5px;
+    }
+    
+    .BTN{
+       width: 300px;
+       padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and ( max-width: 1024px) {
+
+    .container{
+        width: 750px;
+        margin-left: 40px;
+        margin-top: 250px;
+    }
+
+    p{
+        font-size: larger;
+    }
+
+    input{
+        padding: 20px;
+        width: 280px;
+        margin-left: 0px;
+    }
+
+    label{
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    input::placeholder{
+        font-size: x-large;
+    }
+
+    .invalid-email{
+        font-size: large;
+        padding-left: 40px;
+    }
+
+    button{
+        width: 330px;
+        padding: 25px;
+        font-size: large;
+    }
+
+
+
+    .success-message{
+        width: 480px;
+        height: 490px; 
+        margin: 180px;
+        margin-top: 300px;
+        padding-top: 70px;
+        font-size: xx-large;
+   }
+
+   .BTN{
+    width: 480px;
+    padding: 20px;
+ }
+
+}
+
+@media screen and (min-width: 1025px) and ( max-width: 1280px) {
+   .container{
+    width: 800px;
+   }
+
+   p{
+    font-size: large;
+   }
+
+label{
+    font-size: 14px;
+}
+
+.invalid-email{
+    font-size: 14px;
+    padding-left: 96px;
+}
+
+button{
+    padding: 15px;
+}
+
+.success-message{
+    height: 400px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
