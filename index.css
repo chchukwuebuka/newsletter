@@ -92,7 +92,6 @@ button:hover {
     align-content: center;
     justify-content: center;
     background-color: #ffffff;
-    padding: 20px;
     padding: 50px;
     padding-top: 40px;
     width: 230px;
@@ -201,7 +200,7 @@ h2{
 
     .invalid-email{
         font-size: larger;
-        padding-left: 235px;
+        padding-left: 215px;
     }
 
     button{
